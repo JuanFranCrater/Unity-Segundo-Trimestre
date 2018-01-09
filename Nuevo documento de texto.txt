@@ -1,0 +1,11 @@
+Componentes.
+
+Scripts: Los valores de los campos privados no se muestran en el inspector, los valores publicos se muestran en el modo de diseño y ejecucion. 
+En el inspector los scripts se muestran con la primera letra en mayuscula, no se muestran las barras bajas y si despues de estas aparece una minuscula, la muestra mayuscual y si monstramos mayuscualas y minusculas las separa.
+
+Todos las variables son privadas de manera predef en C# y publica en el lenguaje de Unity.
+
+Un GameObject tiene componentes. Los scripts se pueden repetir en diferentes y en el mismo GO.
+
+Podemos acceder a componentes de muchas maneras. para acceder a un componente tenemos que usar getcompontent<coneltipodecomponente>()
+
