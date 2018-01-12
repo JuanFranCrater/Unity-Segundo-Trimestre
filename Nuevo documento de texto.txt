@@ -9,3 +9,13 @@ Un GameObject tiene componentes. Los scripts se pueden repetir en diferentes y e
 
 Podemos acceder a componentes de muchas maneras. para acceder a un componente tenemos que usar getcompontent<coneltipodecomponente>()
 
+UI permite diseñar antes de ejecutar
+
+GUID no
+
+La clase GUI es una clase estatica. Permite realizar operaciones graficas con ella. Un control de esta clase es normal que necesite un rectangulo, que es para decirle donde se muestra y que tamaño tiene. clase Rect
+
+Skin class permite cambiar la aparencia de los controles
+
+Los controles se pueden cambiar su aspecto con Skin o con estilos, estilos que se pueden usar en el inspector.
+
