@@ -10,7 +10,6 @@ public class FindTheChildren : MonoBehaviour {
 	int i=0;
 
 	void Start () {
-		_hijos = _padre.transform;
 		foreach (Transform tmp in _hijos) {
 			if (tmp.tag.Equals ("Malo")) {
 				_enemigos.SetValue (tmp, i++);
