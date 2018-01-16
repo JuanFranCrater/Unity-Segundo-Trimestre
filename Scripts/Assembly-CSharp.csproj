@@ -51,6 +51,7 @@
      <Compile Include="Assets\Escena1-2\FindTheChildren.cs" />
      <Compile Include="Assets\Escena2-3\ControlGeneral.cs" />
      <Compile Include="Assets\Escena2-3\Gui.cs" />
+     <Compile Include="Assets\Escena4\GestionGUI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
