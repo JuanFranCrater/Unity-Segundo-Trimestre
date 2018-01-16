@@ -16,12 +16,11 @@ public class showGUI : MonoBehaviour {
 			mostrar = !mostrar;
 		}
 	}
-
 	void mostratLabel ()
 	{
 		GUI.skin.label.fontSize = 25;
-		int anchoCaracter = 15;
-		float x = (float)Screen.width / 2 - textoMostrar.Length * anchoCaracter / 2;
+		int anchoCaracter = 12;
+		float x = (float)Screen.width / 2 - (textoMostrar.Length * anchoCaracter / 2);
 		float y = (float)Screen.height / 2;
 		float ancho = 500;
 		float alto = 35;

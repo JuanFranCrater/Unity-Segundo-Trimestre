@@ -46,7 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Ej1\showGUI.cs" />
+     <Compile Include="Assets\Ej1\Scripts\showGUI.cs" />
+     <Compile Include="Assets\Ej2\Scripts\CambiarColor.cs" />
+     <Compile Include="Assets\Ej2\Scripts\OnMouse.cs" />
+     <Compile Include="Assets\Ej3\Scripts\CambioColor2.cs" />
+     <Compile Include="Assets\Ej3\Scripts\OnMouseRandom.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

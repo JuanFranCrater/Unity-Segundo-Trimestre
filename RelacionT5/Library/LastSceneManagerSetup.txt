@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ej1/EscenaEj1.unity
+- path: Assets/Ej3/Escena/Escena3.unity
   isLoaded: 1
   isActive: 1
