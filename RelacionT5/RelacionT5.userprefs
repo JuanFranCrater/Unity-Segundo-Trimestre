@@ -1,8 +1,8 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Ej3\Scripts\OnMouseRandom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Salir.cs">
     <Files>
-      <File FileName="Assets\Ej3\Scripts\OnMouseRandom.cs" Line="15" Column="3" />
+      <File FileName="Assets\Scripts\Salir.cs" Line="7" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

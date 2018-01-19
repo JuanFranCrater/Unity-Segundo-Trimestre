@@ -51,6 +51,7 @@
      <Compile Include="Assets\Ej2\Scripts\OnMouse.cs" />
      <Compile Include="Assets\Ej3\Scripts\CambioColor2.cs" />
      <Compile Include="Assets\Ej3\Scripts\OnMouseRandom.cs" />
+     <Compile Include="Assets\Scripts\Salir.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
