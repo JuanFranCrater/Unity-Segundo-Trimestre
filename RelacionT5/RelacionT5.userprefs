@@ -1,8 +1,9 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Salir.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Ej8\Scripts\Formulario.cs">
     <Files>
-      <File FileName="Assets\Scripts\Salir.cs" Line="7" Column="3" />
+      <File FileName="Assets\Ej7\Script\Equalizer.cs" Line="10" Column="2" />
+      <File FileName="Assets\Ej8\Scripts\Formulario.cs" Line="31" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
