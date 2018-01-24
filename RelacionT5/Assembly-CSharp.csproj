@@ -54,6 +54,8 @@
      <Compile Include="Assets\Ej6\Scripts\MenuEj4.cs" />
      <Compile Include="Assets\Ej7\Script\Equalizer.cs" />
      <Compile Include="Assets\Ej8\Scripts\Formulario.cs" />
+     <Compile Include="Assets\Ej9\Scripts\Movimiento.cs" />
+     <Compile Include="Assets\Ej9\Scripts\Puntuacion.cs" />
      <Compile Include="Assets\Scripts\Salir.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

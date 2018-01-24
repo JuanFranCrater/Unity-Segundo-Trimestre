@@ -32,7 +32,15 @@ public class Formulario : MonoBehaviour {
 		edad = Regex.Replace (edad, "[^0-9]", "");
 		if(GUI.Button(new Rect(10,160,anchoWindows-25,25),"Enviar"))
 		{
-			mensaje="Enviando...";
+			if (nombre.Trim().Equals ("")) {
+				mensaje = "Escribe tu nombre.";
+			} else if (apellidos.Trim().Equals ("")) {
+				mensaje = "Escribe tus apellidos.";
+			} else if (edad.Trim().Equals ("")) {
+				mensaje = "Escribe tu edad.";
+			} else {
+				mensaje = "Enviando...";
+			}
 		}
 		if(GUI.Button(new Rect(10,190,anchoWindows-25,25),"Limpiar"))
 		{

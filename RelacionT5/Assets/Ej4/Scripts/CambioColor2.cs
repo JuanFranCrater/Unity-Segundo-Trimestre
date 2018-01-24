@@ -11,6 +11,7 @@ public class CambioColor2 : MonoBehaviour {
 		{
 			for (int i = 0; i < objetos.Length; i++) {
 				objetos [i].AddComponent<OnMouseRandom> ();
+				objetos[i].tag="controladores";
 			}
 		}
 	}
