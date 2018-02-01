@@ -19,16 +19,10 @@ public class Salir : MonoBehaviour {
 		void OnGUI () 
 		{
 		if (show) {
-			Time.timeScale = 0;
 			DisableAllScripts ();
 			windowRect = GUI.Window (idWindow, windowRect, DialogWindow, mensaje);
 		} else {
-			if(Time.timeScale==0)
-			{
-				Time.timeScale = 1;
-				ActivateAllScripts ();
-				show = false;
-			}
+			ActivateAllScripts ();
 		}
 		}
 
@@ -43,8 +37,6 @@ public class Salir : MonoBehaviour {
 
 		if(GUI.Button(new Rect(windowRect.width/2+5,y, windowRect.width /2-10, 20), "No"))
 			{
-				Time.timeScale = 1;
-				ActivateAllScripts ();
 				show = false;
 			}
 		}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Puntuacion : MonoBehaviour {
 	string mensaje="";
-	int puntuacion =50;
+	float puntuacion =50;
 	string lastTag="";
 	string lastObject="";
 	GameObject[] tipo1;
@@ -68,24 +68,29 @@ public class Puntuacion : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision collision)
 	{
-		Debug.Log ("Colision");
-		string actualTag = collision.gameObject.tag;
-		if (actualTag == lastTag) {
-			puntuacion -= int.Parse(actualTag.Substring (7, 1));
-			lastTag = actualTag;
-			lastObject = getTipoObjetoByTag (lastTag);
-		} else {
-			if(getTipoObjetoByTag(actualTag)==lastObject){
-				//?????????
+		if (collision.collider.tag != "NoDetect") {
+			string actualTag = collision.gameObject.tag;
+			if (actualTag == lastTag) {
+				//Si toca un mismo objeto dos veces, resta punto y el objeto se mantiene
+				puntuacion -= int.Parse(actualTag.Substring (7, 1));
+				lastObject = getTipoObjetoByTag (actualTag);
+			} else {
+
+				if(getTipoObjetoByTag(actualTag)==lastObject){
+					//Si toca un objeto de distinto tipo pero mismo gameobject dos veces, suma punto y el objeto se destruye
+					puntuacion += int.Parse(actualTag.Substring (7, 1));
+					lastObject = getTipoObjetoByTag (lastTag);
+					Destroy (collision.gameObject);
+				}else if(getTipoObjetoByTag(actualTag)!=lastObject){
+					//Si toca un objeto de distinto tipo y distinto gameobject, suma medio punto y el objeto se destruye
+					puntuacion += int.Parse(actualTag.Substring (7, 1))/2;
+					lastObject = getTipoObjetoByTag (lastTag);
+					Destroy (collision.gameObject);
+				}
 				lastTag = actualTag;
-				lastObject = getTipoObjetoByTag (lastTag);
-			}else if(getTipoObjetoByTag(actualTag)!=lastObject){
-				puntuacion += int.Parse(actualTag.Substring (7, 1));
-				lastTag = actualTag;
-				lastObject = getTipoObjetoByTag (lastTag);
-				Destroy (collision.gameObject);
 			}
 		}
+
 
 
 	}
