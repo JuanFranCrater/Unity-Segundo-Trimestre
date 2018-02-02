@@ -52,6 +52,8 @@
      <Compile Include="Assets\Escena1-2\FindTheChildren.cs" />
      <Compile Include="Assets\Escena10\CapturaPantalla.cs" />
      <Compile Include="Assets\Escena10\VelocidadJuego.cs" />
+     <Compile Include="Assets\Escena11\ComunicacionEntreObjetos.cs" />
+     <Compile Include="Assets\Escena11\ReceptorMensaje.cs" />
      <Compile Include="Assets\Escena2-3\ControlGeneral.cs" />
      <Compile Include="Assets\Escena2-3\Gui.cs" />
      <Compile Include="Assets\Escena4\GestionGUI.cs" />
