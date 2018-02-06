@@ -54,6 +54,15 @@
      <Compile Include="Assets\Escena10\VelocidadJuego.cs" />
      <Compile Include="Assets\Escena11\ComunicacionEntreObjetos.cs" />
      <Compile Include="Assets\Escena11\ReceptorMensaje.cs" />
+     <Compile Include="Assets\Escena12\Emisor2.cs" />
+     <Compile Include="Assets\Escena12\Hijo1.cs" />
+     <Compile Include="Assets\Escena12\Hijo1_1.cs" />
+     <Compile Include="Assets\Escena12\Hijo2.cs" />
+     <Compile Include="Assets\Escena12\Receptor2.cs" />
+     <Compile Include="Assets\Escena13\Corrutinas.cs" />
+     <Compile Include="Assets\Escena14\Salto.cs" />
+     <Compile Include="Assets\Escena14\Volcan.cs" />
+     <Compile Include="Assets\Escena15\Version_1_UsandoIf.cs" />
      <Compile Include="Assets\Escena2-3\ControlGeneral.cs" />
      <Compile Include="Assets\Escena2-3\Gui.cs" />
      <Compile Include="Assets\Escena4\GestionGUI.cs" />
