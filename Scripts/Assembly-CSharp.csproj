@@ -62,6 +62,7 @@
      <Compile Include="Assets\Escena13\Corrutinas.cs" />
      <Compile Include="Assets\Escena14\Salto.cs" />
      <Compile Include="Assets\Escena14\Volcan.cs" />
+     <Compile Include="Assets\Escena15\PararLasCorrutinas.cs" />
      <Compile Include="Assets\Escena15\Version_1_UsandoIf.cs" />
      <Compile Include="Assets\Escena15\Version_2_Corrutinas.cs" />
      <Compile Include="Assets\Escena15\Version_3_Corrutinas.cs" />

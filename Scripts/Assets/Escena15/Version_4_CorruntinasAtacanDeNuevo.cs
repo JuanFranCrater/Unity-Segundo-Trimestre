@@ -34,17 +34,27 @@ public class Version_4_CorruntinasAtacanDeNuevo : MonoBehaviour {
 			yield return null;
 		}
 	}
+
 	IEnumerator MoverCubos()
 	{
 		// Mueve cubo a cubo hasta el destino
 		foreach (GameObject cuboTmp in cubos) {
+			
 			yield return StartCoroutine(MoverCubo(cuboTmp));
-
+			/* Esto espera 3 segundos  
+			for(float tiempoBucle = Time.time; Time.time-tiempoBucle<3;)
+			{
+				yield return null;
+			}
+			*/
+			yield return new WaitForSeconds (3);
 			cuboTmp.GetComponent<MeshRenderer> ().material.color = Color.blue;
 
 			yield return StartCoroutine (RotarCubos (cuboTmp));
+
 		}
 	}
+
 	IEnumerator RotarCubos(GameObject cuboTmp)
 	{
 		// Rota cada cubo al llegar al destino
