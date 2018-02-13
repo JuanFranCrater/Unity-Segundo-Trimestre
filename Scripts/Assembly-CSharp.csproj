@@ -67,6 +67,11 @@
      <Compile Include="Assets\Escena15\Version_2_Corrutinas.cs" />
      <Compile Include="Assets\Escena15\Version_3_Corrutinas.cs" />
      <Compile Include="Assets\Escena15\Version_4_CorruntinasAtacanDeNuevo.cs" />
+     <Compile Include="Assets\Escena16\Corrutinas_Botones.cs" />
+     <Compile Include="Assets\Escena17\CargarRecursoWeb.cs" />
+     <Compile Include="Assets\Escena17\cargarRecursoTexto.cs" />
+     <Compile Include="Assets\Escena18\Enemigo.cs" />
+     <Compile Include="Assets\Escena18\Script.cs" />
      <Compile Include="Assets\Escena2-3\ControlGeneral.cs" />
      <Compile Include="Assets\Escena2-3\Gui.cs" />
      <Compile Include="Assets\Escena4\GestionGUI.cs" />
