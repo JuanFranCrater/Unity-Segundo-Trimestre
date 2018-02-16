@@ -12,12 +12,12 @@ public class Enemigo : MonoBehaviour {
 	
 	public void Detectado()
 	{
-		//Hago cosassssssss
+		if(_texturaObjeto!=null)
 		_texturaObjeto.material.color=Color.blue;
 	}
 	public void NoDetectado()
 	{
-		//Hago cosassssssss
+		if(_texturaObjeto!=null)
 		_texturaObjeto.material.color=Color.red;
 	}
 }
