@@ -12,6 +12,8 @@ public class GunShoot : MonoBehaviour {
 	public ParticleSystem cartridgeEjection;
 	public Light fogonazo;
 	public GameObject hole;
+	public AudioClip shot;
+	public AudioClip cartridge;
 
 	private float nextFire;												
 	private Animator anim;
@@ -30,7 +32,9 @@ public class GunShoot : MonoBehaviour {
 			Debug.Log ("Shoot");
 			nextFire = Time.time + fireRate;
 			muzzleFlash.Play();
+			muzzleFlash.GetComponent<AudioSource> ().Play();
 			cartridgeEjection.Play();
+			StartCoroutine (Casquillo ());
 			anim.SetTrigger ("Fire");
 
 			Vector3 rayOrigin = gunEnd.position;
@@ -41,6 +45,11 @@ public class GunShoot : MonoBehaviour {
 			}
 		}
 		Debug.DrawRay (gunEnd.position, gunEnd.forward);
+	}
+	IEnumerator Casquillo()
+	{
+		yield return new WaitForSeconds (0.9f);
+		cartridgeEjection.GetComponent<AudioSource> ().Play ();
 	}
 	IEnumerator Fogonazo()
 	{
