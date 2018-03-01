@@ -43,10 +43,12 @@ public class Move : MonoBehaviour {
 		if (salud != 0) {
 			if (collision.gameObject.tag == "medic") {
 				salud += 5;
+				GameObject.Find ("MedicSound").GetComponent<AudioSource> ().Play ();
 				Destroy (collision.gameObject);
 			}
 			if (collision.gameObject.tag == "ammo") {
 				GameObject.Find ("GunShoot").SendMessage ("Ammo");
+				GameObject.Find ("AmmoSound").GetComponent<AudioSource> ().Play ();
 				Destroy (collision.gameObject);
 			}
 			if (collision.gameObject.tag == "enemigo") {

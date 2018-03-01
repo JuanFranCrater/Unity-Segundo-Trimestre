@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\GunShoot.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\PickUP.cs" />
      <Compile Include="Assets\Scripts\Puntuacion.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
  <Reference Include="UnityEngine.UI">
